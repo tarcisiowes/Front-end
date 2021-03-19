@@ -1,0 +1,18 @@
+
+body {
+    font-family: 'Ravi Prakash', cursive;
+    background: black url(img/backg.jpg) no-repeat center/cover;         
+    font-size: 30px;
+}
+ul {
+    color: red;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(199, 43, 43);
+}
+a {
+    text-decoration: none;
+    color: white;
+}

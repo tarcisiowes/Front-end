@@ -1,0 +1,74 @@
+body {
+    background: url(img/back.png) no-repeat fixed right ;
+    background-color: black;
+    padding-left: 50px;
+
+
+}
+.foto {
+    
+    width: 810px;
+}
+h1{
+    padding-left: 90px ;
+    height: bold;
+    padding-top: 25px;
+    color: white;
+    font-size: 50px;
+}
+
+h2{
+    /* padding: 32px 0px 5px 60px; */
+    
+}
+
+p{
+    /* width: 750px; */
+    text-align: justify;
+       
+    /* padding: 5px 15px 15px 25px; */
+}
+
+.t10{
+    max-width: 217px;
+    display: inline-block;
+    background: rgba(254, 255, 254, 0.0);
+    
+}
+.t20{
+    max-width: 217px;
+    display: inline-block;
+    background: rgba(254, 255, 254, 0.0);`
+    
+}
+div {
+    background: rgba(254, 255, 255, 0.5);
+    width:fit-content;
+    padding: 32px 60px 32px 60px;
+    max-width: 690px;
+    margin: 3px
+}
+
+li{
+    width: 180px;
+    /* padding-top: 10px;
+    padding-bottom: 10px;    */
+    text-align:;
+    margin-bottom: 16px;
+}
+a{
+    text-decoration: none ;
+    color: rgb(0, 0, 0);   
+
+}
+a:hover{
+    color: rgb(0, 38, 255);
+        
+}
+.musica{
+    white-space:normal;
+    
+}
+img {
+    float: left;
+  }

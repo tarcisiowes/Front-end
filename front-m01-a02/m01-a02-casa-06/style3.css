@@ -1,0 +1,94 @@
+body {
+    background: url(img/back3.jpg) fixed;
+    background-size: cover;                      
+    background-repeat: no-repeat;
+     
+    background-color: black;
+    padding-left: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    color: aliceblue;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    
+}
+.master{
+    margin-left: auto;
+    margin-right: auto;
+}
+.foto {
+
+    width: 100%;
+    margin: 30px 0px;
+    box-shadow: black 0px 5px 5px 5px;
+}
+h1{
+    text-align: center;
+    height: bold;
+    padding-top: 25px;
+    color: rgb(49, 48, 49);
+    font-size: 94px;
+    font-weight: 1100;
+}
+
+h2{
+    text-align: center;
+    font-size: 52px;
+    color: rgb(76, 77, 77);
+}
+
+p{
+    /* width: 750px; */
+    text-align:center;
+    font-size: 26px;
+    /* padding: 5px 15px 15px 25px; */
+    color: rgb(0, 0, 0);
+}
+
+.t10{
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background: rgba(254, 255, 254, 0.0);
+    margin-right: ;
+}
+.t20{
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background: rgba(197, 93, 223, 0);`
+    margin-right: 20px;
+}
+div {
+    background: rgba(124, 124, 124, 0.309);
+    width:fit-content;
+    /* padding: 32px 60px 32px 60px; */
+    padding: 30px;
+    max-width: 800px;
+    margin: 3px
+}
+
+li{
+    width: 257px;
+    /* padding-top: 10px;
+    padding-bottom: 10px;    */
+    text-shadow: 1px 1px black; 
+    margin-bottom: 32px;
+    ;
+}
+a{
+    text-decoration: none ;
+    color: rgb(138, 2, 50);
+    font-size: 22px; 
+     
+
+}
+a:hover{
+    color: rgb(88, 113, 252);
+        
+}
+.musica{
+    white-space:normal;
+    
+}
+img {
+    float:left;
+  }

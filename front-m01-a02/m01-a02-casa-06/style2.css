@@ -1,0 +1,91 @@
+body {
+    background: url(img/back2.jpg) fixed;
+    background-size: cover;                      
+    background-repeat: no-repeat;
+     
+    background-color: black;
+    padding-left: 50px;
+    font-family: 'Akaya Telivigala', cursive;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    
+}
+.master{
+    margin-left: auto;
+    margin-right: auto;
+}
+.foto {
+
+    width: 100%;
+    margin: 30px 0px;
+    box-shadow: black 0px 5px 5px 5px;
+}
+h1{
+    padding-left: 90px ;
+    height: bold;
+    padding-top: 25px;
+    color: rgb(132, 0, 255);
+    font-size: 94px;
+    font-weight: 1100;
+}
+
+h2{
+    /* padding: 32px 0px 5px 60px; */
+    font-size: 52px;
+    color: rgb(0, 238, 255);
+}
+
+p{
+    /* width: 750px; */
+    text-align:start;
+    font-size: 26px;
+    /* padding: 5px 15px 15px 25px; */
+    color: rgb(208, 255, 80);
+}
+
+.t10{
+    max-width: 100%;
+    display: inline-block;
+    background: rgba(254, 255, 254, 0.0);
+    margin-right: 58px;
+}
+.t20{
+    max-width: 100%;
+    display: inline-block;
+    background: rgba(197, 93, 223, 0);`
+    margin-right: 20px;
+}
+div {
+    background: rgba(3, 225, 203, 0.309);
+    width:fit-content;
+    /* padding: 32px 60px 32px 60px; */
+    padding: 30px;
+    max-width: 690px;
+    margin: 3px
+}
+
+li{
+    width: 174px;
+    /* padding-top: 10px;
+    padding-bottom: 10px;    */
+    
+    margin-bottom: 32px;
+    ;
+}
+a{
+    text-decoration: none ;
+    color: rgb(243, 120, 5);
+    font-size: 26px;   
+
+}
+a:hover{
+    color: rgb(88, 113, 252);
+        
+}
+.musica{
+    white-space:normal;
+    
+}
+img {
+    float:left;
+  }
