@@ -1,0 +1,46 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    
+    
+}
+.header{
+    background-color: blue;
+    margin-top: auto;
+    height: 4rem;
+    justify-content: stretch;
+    flex-grow: 1;
+    order: ;
+}
+
+.footer{
+    background-color: rgb(47, 221, 97);
+    
+    height: 3rem;
+    
+    justify-content: stretch;
+    flex-grow: 1;
+}
+
+.menu{
+    background-color: rgb(47, 96, 201);
+    
+    align-self: stretch;
+    
+    max-width: 200px;
+    flex-grow: 1;
+}
+
+.cont{
+    background-color: rgb(170, 67, 170);
+    
+    height: ;
+    
+    flex-grow: 1;
+}
+li{
+    max-width: 200px;
+}

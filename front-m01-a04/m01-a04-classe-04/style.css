@@ -1,0 +1,26 @@
+body {
+	margin: 8px;
+}
+
+.container, .item {
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.container {
+	background-color: #995db5;
+	display: flex;
+	justify-content: flex-start;
+	
+}
+
+.item {
+    list-style: none;
+	background-color: #f7941f;
+}
+
+#login{
+	background-color: rgb(71, 162, 71);
+	margin-left: auto;
+}
