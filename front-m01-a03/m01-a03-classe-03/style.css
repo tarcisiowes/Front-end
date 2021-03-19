@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-image: auto ;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: 500;
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+.topo{
+    text-align: center;
+    margin: 48px;
+}
+h1{
+    color:rgb(245, 177, 5);
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(181, 12, 12);
+}
+h2{
+    color:rgb(245, 177, 5);
+    font-size: 32px;
+    text-shadow: 2px 2px rgb(181, 12, 12);
+}
+h3{
+    font-size: 25px;
+    color:  rgb(181, 12, 12);
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+}
+
+.coment{
+    text-align: center;
+    background-color: rgba(182, 76, 76, 0.4);
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 50%;
+    margin-top: 15px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     
+}
+.receita{
+    text-align: left;
+    background-color: rgba(223, 190, 58, 0.4);
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 50%;
+    margin-top: 15px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.receita img{
+    margin: 15px;
+    max-width: 90%;
+
+}
+.receita li{
+    margin-left: 32px;
+    font-size: 18px;
+}
+.bonus{
+    text-align: left;
+    background-color: rgba(228, 40, 19, 0.4);
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 50%;
+    margin-top: 15px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
