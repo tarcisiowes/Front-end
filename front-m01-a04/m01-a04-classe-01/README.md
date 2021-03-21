@@ -129,6 +129,6 @@ Qual alternativa abaixo representa essa propriedade?
 
 Preencha a checklist para finalizar o exercício:
 
-- [ ] Resolver o exercício
+- [✓] Resolver o exercício
 
 ###### tags: `front-end` `módulo 1` `exercício de classe` `HTML` `CSS` `flex`

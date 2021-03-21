@@ -1,46 +1,74 @@
 body{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-.main{
-    
-    
-}
-.header{
-    background-color: blue;
-    margin-top: auto;
-    height: 4rem;
-    justify-content: stretch;
-    flex-grow: 1;
-    order: ;
+    height: 100vh;
+
 }
 
-.footer{
-    background-color: rgb(47, 221, 97);
-    
-    height: 3rem;
-    
-    justify-content: stretch;
-    flex-grow: 1;
+.header{
+    background-color: cornflowerblue;
+    height: 15vh;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mid{
+    display: flex;
+    flex-grow: 3;
 }
 
 .menu{
-    background-color: rgb(47, 96, 201);
-    
-    align-self: stretch;
-    
-    max-width: 200px;
-    flex-grow: 1;
+    background-color: cornflowerblue;
+    min-width: 40vh;
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .cont{
-    background-color: rgb(170, 67, 170);
-    
-    height: ;
-    
+    background-color: pink;
     flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
-li{
-    max-width: 200px;
+.cards{
+    display: flex;
+    height: 35vh;
+    width: 90vh;
+    justify-content: space-around;
+    margin: auto;
+    
+
+}
+
+.text{
+    background-color: goldenrod;
+    width: 23vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 0.5em;
+}
+
+.button{
+    background-color: black;
+    height: 3em;
+}
+
+.footer{
+    background-color: greenyellow;
+    height: 15vh;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

@@ -33,7 +33,7 @@
 **a)** 16px
 **b)** 1em
 **c)** 12px
-**d)** 20px
+**d)** 20px 
 
 <details>
     <summary>Clique aqui para ver a resposta</summary>         Letra D - Porque a div .filho herdou os 20px de tamanho de fonte do pai e 1em equivale ao tamanho da fonte do elemento atual.
@@ -188,6 +188,6 @@ html {
 
 Preencha a checklist para finalizar o exercício:
 
-- [ ] Resolver o exercício
+- [✓] Resolver o exercício
 
 ###### tags: `front-end` `módulo 1` `exercício de casa` `HTML` `CSS`

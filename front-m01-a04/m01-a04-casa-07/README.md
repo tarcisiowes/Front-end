@@ -11,6 +11,6 @@ O objetivo deste exercício é completar todas as fases do seguinte mini-game:
 
 Preencha a checklist para finalizar o exercício:
 
-- [ ] Resolver o exercício
+- [✓] Resolver o exercício
 
 ###### tags: `front-end` `módulo 1` `exercício de casa` `HTML` `CSS`
