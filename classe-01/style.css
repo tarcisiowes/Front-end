@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(assets/background.png) ;
+    background-color:#FF7979;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center; 
+}
+
+img{
+    opacity: 0.1;
+}
+
+.botao {
+    background-color: #5E54A4;
+    box-shadow: 0 0.5em 0 rgba(0, 0, 0, 0.15);
+    border-radius: 0.5em;
+    min-width: 50vh;
+    width: 63.7vh;
+    height: 7vh;
+    margin-left: auto;
+    margin-right: 20vh;
+    margin-bottom: 1.4em;
+}
+
+.botao p{    
+    color: white;
+    text-align: center;
+    font-size: 0.9em; 
+    padding-top: 1.4em;
+
+}
+
+.meio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-width: 50vh;
+    width: 60vh;
+    height: 25vh;
+    margin-left:;
+    margin-right: 5em;
+    margin-top: auto;
+    margin-bottom: 20vh;    
+    
+
+}
+.conteudo h1{
+    font-size: 3em;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF ;
+    box-shadow: 0 0.5em 0 rgba(0, 0, 0, 0.15);
+    border-radius: 0.5em;
+    min-width: 50vh;
+    height: 50vh;
+    width: 60vh;
+    margin-left: ;
+    margin-right: ;
+    padding: 16px;
+}
+form p{
+    font-size: 0.6em;
+    color: #BAB7D4;
+}
+a{
+    text-decoration: none;
+    color: #FF7979
+}
+
+input{
+    margin: ;
+    width: 50vh;
+    height: 4em;
+    font-family: 'Poppins', sans-serif;  
+    color: black;  
+    padding-left: 32px;
+}
+button{
+    width: 54.5vh;
+    height: 4.1em;
+    background: #38CC8B;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: #77E2B3;
+    cursor: pointer;
+    
+}
+
+input::placeholder{
+    color: #3D3B48;
+    font-weight: 600;
+}
+
+input:focus{
+    caret-color: #5E54A4;
+    
+}
