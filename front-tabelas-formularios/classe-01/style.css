@@ -47,8 +47,7 @@ img{
     color: white;
     min-width: 50vh;
     width: 60vh;
-    height: 25vh;
-    margin-left:;
+    height: 25vh;    
     margin-right: 5em;
     margin-top: auto;
     margin-bottom: 20vh;    
@@ -69,9 +68,7 @@ img{
     border-radius: 0.5em;
     min-width: 50vh;
     height: 50vh;
-    width: 60vh;
-    margin-left: ;
-    margin-right: ;
+    width: 60vh; 
     padding: 16px;
 }
 form p{
@@ -84,7 +81,7 @@ a{
 }
 
 input{
-    margin: ;
+ 
     width: 50vh;
     height: 4em;
     font-family: 'Poppins', sans-serif;  
