@@ -7,6 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background: #684BB1;
     height: 100%;
+    width: 100vh;
     background-image: url(assets/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,3 +57,37 @@ p{
     margin-top: 24px;
  }
 
+ button:hover{
+    font-size: 18px;
+    line-height: 27px;      
+    text-align: center;    
+    color: #FFFFFF;
+    background: #E880E8;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+    border-radius: 28px;    
+ }
+
+ .redes{
+    width: 152px;
+    height: 40px;
+    position: absolute;
+    right: 5vh;
+    bottom: 5vh;
+    
+ }
+ a img{
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    border-radius: 28px;
+    border: 1.6px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-left: 8px;
+    padding: 1px;
+ }
+
+ a img:hover{
+    background-color: #E880E8;
+    border-color: #E880E8 ;
+ }
