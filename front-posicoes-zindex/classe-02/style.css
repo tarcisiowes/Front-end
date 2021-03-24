@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #684BB1;
+    height: 100%;
+    background-image: url(assets/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.conteudo{
+    width: 520px;
+    color: #FFFFFF;
+    position: fixed;
+    top: 31vh;
+    left: 52%;
+}
+h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px; 
+    width: 487px; 
+}
+p{
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+
+.logo{
+    position: relative;
+    top: 8vh;
+    left: 10vh;
+}
+
+.ilustracao{
+    position: relative;
+    top: 18vh;
+    left: 10vh;
+}
+ button{
+    width: 200px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #684BB1;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 28px;
+    margin-top: 24px;
+ }
+
