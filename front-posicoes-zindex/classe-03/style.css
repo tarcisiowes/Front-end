@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    max-height: 100vh;
+    max-width: 100vh;    
+    font-family: 'Kumbh Sans', sans-serif;
+    background: #19A1AE;    
+}
+
+.card{
+    position: absolute;
+    width: 350px;
+    height: 374px;
+    text-align: center;
+    left: 40%;
+    top: 30%;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.6);
+    border-radius: 15px;
+
+}
+
+.dados{
+    position: absolute;
+    width: 249px;
+    height: 40px; 
+    left: 40px;
+    left: 12%;
+    top: 55%;
+}
+p{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #2E3349;
+}
+span {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #6B7082;
+    padding-left: 5px;
+}
+.city{
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #6B7082;
+    padding-top: 10px;
+}
+
+table{
+    position: absolute;
+    width: 350px;
+    height: 40px;     
+    top: 75%;
+    border-top: #E8E9EC 1px solid;
+    padding-top: 35px;
+    padding-right: 20px;   
+}
+tbody{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #2E3349;
+}
+tfoot{
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+}
+
+.cardbg{
+    background: #41CBD3;
+    border-radius: 15px 15px 0px 0px; 
+}
+
+.cardpic{
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 35%;
+    top: 25%;
+    border: 5px solid #FFFFFF;
+    border-radius: 55px;
+}
+
+.bgtop{      
+    opacity: 0.5;
+    position: absolute;
+    bottom: 30%;
+    right: 53%;
+    z-index: -1;
+}
+
+.bgfoot{    
+    opacity: 0.25;    
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
