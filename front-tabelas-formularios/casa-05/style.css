@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(img/sitebg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+}
+h1{
+    font-size: 5em;
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 3em;
+    margin-bottom: 30px;
+    
+}
+h3{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #e8e8b4;
+}
+p{
+    
+    margin-bottom: 35px;
+    text-align: justify; 
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;   
+}
+h1, h2, h3{
+    font-weight: 900;
+}
+
+span{
+    color: #464749;
+    text-shadow: 2px 2px burlywood;
+}
+
+div{
+    padding: 100px;
+    background-color: #33333370;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    box-shadow: 20px 50px 100px 20px rgba(8, 70, 94, 0.8);
+    border-radius: 15px;
+    text-shadow: 2px 2px #0c0c0c80;
+    
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-collapse: collapse; 
+    line-height: 40px; 
+}
+thead{
+    color: #464749;
+    text-shadow: 2px 2px burlywood;
+    font-weight: bold;
+    font-size: 30px;
+}
+td{
+    border-bottom: 2px solid #46474950;
+}
+
+
+.aaimg{
+    
+    border-radius: 85px;
+    width: 100vh;
+    margin-top: 200px;
+    box-shadow: 20px 50px 100px 20px rgba(8, 70, 94, 0.8);
+}
+
+.cgimg{
+    
+    border-radius: 85px;
+    width: 100vh;
+    margin-top: 200px;
+    box-shadow: 20px 50px 100px 20px rgba(8, 70, 94, 0.8);
+}
+
+.kyimg{
+    
+    border-radius: 85px;
+    width: 100vh;
+    margin-top: 200px;
+    box-shadow: 20px 50px 100px 20px rgba(8, 70, 94, 0.8);
+}
+
+.aalogo img{
+    width: 100%;
+    padding-top: 200px;
+    
+}
+.comedia{
+    background-image: url(img/aabg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+
+}
+
+.cglogo img{
+    width: 100%;    
+}
+
+.esporte{
+    background-image: url(img/cgbg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+
+}
+
+.kylogo img{
+    width: 100%;
+    
+}
+
+.aventura{
+    background-image: url(img/kybg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;    
+}
+
+.rodape{
+    background-color: #333333;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 400px;
+    width: 88%;
+    height: 12vh;
+}
+h5{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: wavy;
+    color: aqua;
+    transition: 0.4s;
+    
+    
+    
+}
+
+a:hover{
+    color: #deb887;
+    transition: 0.4s;
+    border: solid 1px #deb88750;
+    border-radius: 8px;
+
+}
+table a{
+    border: 0px;
+}
