@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input class="input" id="textinput" type="text" placeholder="Nome" /> 
+        </div>
+        <div>
+            <input class="input" id="textinput" type="number" placeholder="Numero"/> 
+        </div>
+        <div>
+            <input class="input" id="textinput" type="password" placeholder="Senha"/>
+        </div>
+        <div>
+            <textarea class="input" id="textarea" placeholder="Comentario..."></textarea>
+        </div>
+
+        <form>
+            <select id="plataforma" name="plataforma">
+            <option value="pc">PC</option>
+            <option value="xb">XBOX</option>
+            <option value="ps">PS</option>
+            <option value="ns">Switch</option>
+            </select>
+        </form>
+        <div class="cbox">
+            <h2>Ja joguei...</h2>
+            <form action="">
+            <input type="checkbox" class="jogos" name="checkbox" value="MHW">
+            <label for="jogo1"> Monster Hunter World</label><br>
+            <input type="checkbox" class="jogos" name="checkbox" value="FF">
+            <label for="jogo2"> Final Fantasy</label><br>
+            <input type="checkbox" class="jogos" name="checkbox" value="HZD">
+            <label for="jogo3"> Horizon Zero Dawn</label><br>
+            <input type="checkbox" class="jogos" name="checkbox" value="TW3">
+            <label for="jogo4"> The Witcher 3</label><br>        
+          </form>
+          
+        </div>
+        
+        <div class="radio">
+            <h1>Preferido</h1>
+            <input type="radio" class="jogos" name="radio" value="MHW">
+            <label for="jogo1"> Monster Hunter World</label><br>
+            <input type="radio" class="jogos" name="radio" value="FF">
+            <label for="jogo2"> Final Fantasy</label><br>
+            <input type="radio" class="jogos" name="radio" value="HZD">
+            <label for="jogo3"> Horizon Zero Dawn</label><br>
+            <input type="radio" class="jogos" name="radio" value="TW3">
+            <label for="jogo4"> The Witcher 3</label><br>  
+        </div>
+
+
+        <input type="button" value="Confirmar">
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+
+    </div>
+
+
+</body>
+</html>
