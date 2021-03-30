@@ -1,0 +1,104 @@
+body{
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.6);
+    border-radius: 10px;
+    height: 280px;
+    width: 740px;
+    display: grid;
+    gap: 1em;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+    "a b"
+    "a c";
+}
+
+.foto {
+    border-radius: 8px 0 0 8px;
+    height: 280px;
+    width: 280px;
+    grid-area: a;
+}
+.conteudo{
+    height: 168px;
+    width: 360px;
+    grid-area: b;
+    padding: 1em;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    color: #48556A;
+    width: 365px;
+    height: 84px;
+    
+}
+.conteudo p{
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    color: #6E8098;
+    width: 385px;
+    height: 60px;
+}
+.rodape{
+    grid-area: c;
+    display: flex;
+    width: 100%;
+    justify-content: space-between ;
+    align-items: center;
+    
+    
+}
+.rodape .avatar{
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    width: 300px;
+}
+.rodape .avatar img{
+    height: 40px;
+    position: relative;
+    top: -10px;
+    border-radius: 30px;
+}
+.info{
+    margin-left: 20px;
+}
+.info p{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    color: #48556A;
+}
+.info span{
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.121875px;
+    color: #9DAEC2;
+}
+.icon{
+    background: #ECF2F8;
+    width: 32px;
+    height: 32px;
+    border-radius: 30px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top: -10px;
+}
+.icon img{
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
